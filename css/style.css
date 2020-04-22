@@ -1,24 +1,23 @@
-.imp-control {
-  margin: 10px;
-  padding: 5px;
-  border-radius: 40% / 50%;
-  background: rgba(0, 0, 0, 0.6);
-  display: inline-block;
-  position: sticky;
-  pointer-events: all;
-  visibility: visible;
-}
-
-#imp-connecting {
-  display: inline-block;
+#imp-status {
   width: 80%;
+  margin: 0px;
 }
 
 #imp-slider {
   display: none;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+#imp-buttons {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
   background: rgba(0, 0, 0, 0.6);
+  width: 200px;
+  color: white;
 }

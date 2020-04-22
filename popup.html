@@ -4,11 +4,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h3>Impatience</h3>
-  <div id="imp-control">
+  <center>
+    <h1>Impatience</h1>
+    <p id="imp-status">Connecting...</p>
     <input id="imp-slider" type="range" min="0" max="2" step="0.1" value="1">
-    <p id="imp-connecting">Connecting...</p>
-  </div>
+    <div id="imp-buttons">
+      <button class="imp-button" value="0">0x</button>
+      <button class="imp-button" value="0.5">0.5x</button>
+      <button class="imp-button" value="1">1x</button>
+      <button class="imp-button" value="1.5">1.5x</button>
+      <button class="imp-button" value="2">2x</button>
+    </div>
+  </center>
   <script src="scripts/slider.js" type="text/javascript"></script>
 </body>
 </html>

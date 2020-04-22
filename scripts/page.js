@@ -15,7 +15,6 @@ function imp_getPlaybackRate() {
 }
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-    console.log("message received:", request.type);
     if (request.type == "get") {
       let rate = imp_getPlaybackRate();
       sendResponse({rate: rate, success: true});

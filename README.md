@@ -1,2 +1,2 @@
 # impatience
-Speed up videos
+Chrome extension to adjust speed of videos.
